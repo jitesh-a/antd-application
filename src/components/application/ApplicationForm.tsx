@@ -71,7 +71,7 @@ const ApplicationForm = () => {
       openNotificationWithIcon('success', 'Success', 'Request was successfull.');
     }
     if(error) {
-      openNotificationWithIcon('success', 'Error', 'There was an error performing the request operation.');
+      openNotificationWithIcon('error', 'Error', 'There was an error performing the request operation.');
     }
   }, [data, error]);
 
