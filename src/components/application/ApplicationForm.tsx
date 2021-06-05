@@ -55,7 +55,7 @@ const tailFormItemLayout = {
 
 
 // notification
-const openNotificationWithIcon = (type, message, description) => {
+const openNotificationWithIcon = (type: string, message: string, description: string) => {
   notification[type]({
     message,
     description
