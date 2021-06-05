@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# A simple application developed with antd, react-router-dom and axios
+
+## Pages
+1. Sign in
+2. Application form
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
